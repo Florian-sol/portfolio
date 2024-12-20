@@ -1,0 +1,287 @@
+body {
+    background-color:#eedcc4;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: Pacifico, cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(95,58,32);
+    height: 70px;
+    margin-top: -10px;
+    font-size: larger;
+}
+
+header a {
+    text-decoration: none;
+    color: #F29E4C;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header ul {
+    text-decoration: none;
+    color: #F29E4C;
+    font-weight: bold;
+    float: left;
+}
+
+header li {
+    display: inline;
+    padding-left: 15px;
+    margin: -10px;
+    text-align: center;
+    padding-left: 125px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.starter {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    background-color: blue;
+    padding-left: 100px;
+    padding-top: 10px;
+    background: url(img/картинки/yzor.jpg)no-repeat;
+    background-position: 30% -100px;
+    background-size: cover;
+    
+}
+
+.starter .p1, .p2 {
+    font-size: 32px;
+}
+
+.starter .p2 {
+    margin-top: -25px;
+}
+
+.p1 + .h1 {margin-top: -10px;}
+
+.p1, .h1, .p2 {
+    color: #3b2f26;
+}
+
+.ava img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid #F29E4C 6px;
+}
+
+.ava {
+    display: flex;
+    justify-content: center;
+    margin-top: -140px;
+    padding-left: 55px;
+}
+
+.right {
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 70px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    background-color: rgb(95,58,32);
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 500px;
+    margin-left: 100px;
+    font-size: 23px;
+    margin-top: 70px;
+}
+
+.left p { max-width: 200ch; color: #eedcc4;}
+
+.right1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-right: 40px;
+    padding-inline: 100px;
+}
+
+.right1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.elem1, .elem2, .elem3 {padding: 30px;}
+
+.portfolio {
+    align-items: center;
+    height: 560px;
+}
+
+.portfolio p {
+    text-align: center;
+    color: #3b2f26;
+    font-size: 23px;
+}
+
+.work {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.portfolio img {
+    width: 347px;
+    height: 200px;
+    margin-top: 70px;
+}
+
+.site1, .site2, .site3 {
+    padding: 10px;
+}
+
+.baton {
+    padding: 10px 150px;
+    margin-top: 20px;
+    background-color:  #F29E4C;
+    color: rgb(95,58,32);
+    font-size: 23px;
+    font-weight: bold;
+    border-color: #3b2f26;
+    font-family: Pacifico, cursive;
+ }
+
+footer {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(95,58,32);
+    margin-bottom: -10px;
+}
+
+footer p {
+    text-align: center;
+    color: #eedcc4;
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.forma {
+    margin-left: 40px;
+    padding-bottom: 50px;
+    font-family: Pacifico, cursive;
+}
+
+.name {
+    color: #F29E4C;
+}
+
+#contact-from{
+    font-style: italic;
+}
+
+input::placeholder {
+    color: #3b2f26;
+    font-style: italic;
+    font-optical-sizing: auto; 
+    font-family: Pacifico, cursive;
+}
+
+textarea::placeholder {
+    color: #3b2f26;
+    font-style: italic;
+    font-optical-sizing: auto;
+    font-family: Pacifico, cursive;
+    background-color: #eedcc4;
+}
+
+#topic {
+    height: 50px;
+    width: 536px;
+    margin-bottom: 20px;
+    color: #3b2f26;
+    background-color: #eedcc4;
+    border: #3b2f26 3px double;
+    font-family: Pacifico, cursive;
+}
+
+#contact-from input[type="text"]{
+    height: 50px;
+    width: 520px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: Pacifico, cursive;
+    font-style: italic;
+    color: #3b2f26;
+    border: #3b2f26 3px double;
+    background-color: #eedcc4;
+}
+
+#contact-from input[type="number"]{
+    height: 50px;
+    width: 520px;
+    padding: 5px;
+    margin-bottom: 20px; 
+    color: #3b2f26;
+    font-family: Pacifico, cursive;
+    font-style: italic;
+    border: #3b2f26 1px solid;
+    border: #3b2f26 3px double;
+    background-color: #eedcc4;
+}
+
+#contact-from input[type="email"]{
+    height: 50px;
+    width: 520px;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: #3b2f26;
+    font-family: Pacifico, cursive;
+    font-style: italic;
+    border: #3b2f26 1px solid;
+    border: #3b2f26 3px double;
+    background-color: #eedcc4;
+}
+
+.msg {
+    height: 140px;
+    width: 510px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Pacifico, cursive;
+    font-style: italic;
+    border: #3b2f26 1px solid;
+    border: #3b2f26 3px double;
+    background-color: #eedcc4; 
+}
+
+.submit{
+    height: 55px;
+    width: 538px;
+    font-family: Pacifico, cursive;
+    font-style: italic;
+    color: #3b2f26;
+    border: 3px double #3b2f26;
+    background-color: #F29E4C;
+}
+
+.footer_icons {
+    text-align: right;
+}
+
+.footer_img {
+    width: 80px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
